@@ -1,0 +1,30 @@
+.container {
+  background: #fafafa;
+  font-family: 'Avenir Next', sans-serif;
+}
+.main-content {
+  width: 400px;
+  margin: 0 auto;
+  border-bottom: 1px solid #cccccc;
+}
+.main-content h4 {
+  padding-top: 8px;
+}
+.footer-content {
+  width: 400px;
+  margin: 0 auto;
+}
+.n-m {
+  margin: 0;
+}
+.n-m-team {
+  margin: 0 0 5px 0;
+}
+.link-button {
+  text-decoration: none;
+  background-color: #e45128;
+  color: #ffffff;
+  padding: 2px 6px 2px 6px;
+  border-radius: 4px;
+  border: 1px solid #b64020;
+}

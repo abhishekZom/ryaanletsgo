@@ -1,0 +1,13 @@
+version: "2"
+services:
+  rethinkdb:
+    image: "rethinkdb:2.3.5"
+    ports:
+      - "28015:28015"
+      - "8080:8080"
+  rabbitmq:
+    image: rabbitmq:3.6.9-management
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"

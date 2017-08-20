@@ -1,0 +1,7 @@
+--ui bdd
+--reporter spec
+--full-trace
+--require ./test/setup.js
+--recursive
+--check-leaks
+--trace

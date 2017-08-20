@@ -1,0 +1,539 @@
+{
+    "users": [
+        {
+            "id": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "fullName": "test user",
+            "username": "test",
+            "email": "test@example.com",
+            "password": "$2a$06$TaitfNktAlMQkRt5viFnI.avHNMAeBbHeSwS2jFELQ.rwvvrQRNp2",
+            "bio": "Hello I am a test user",
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "7b897879-2732-4900-a390-119b45588586",
+            "fullName": "test user1",
+            "username": "test1",
+            "email": "test1@example.com",
+            "password": "$2a$06$TaitfNktAlMQkRt5viFnI.avHNMAeBbHeSwS2jFELQ.rwvvrQRNp2",
+            "bio": "Hello I am a test user 1",
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "908e7759-ab11-493b-90c5-59d9272882da",
+            "fullName": "test user3",
+            "username": "test2",
+            "email": "test2@example.com",
+            "password": "$2a$06$TaitfNktAlMQkRt5viFnI.avHNMAeBbHeSwS2jFELQ.rwvvrQRNp2",
+            "bio": "Hello I am a test user 2",
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "73404c19-57fb-46fc-873b-e0b228bff1a3",
+            "fullName": "test user4",
+            "username": "test3",
+            "email": "test3@example.com",
+            "password": "$2a$06$TaitfNktAlMQkRt5viFnI.avHNMAeBbHeSwS2jFELQ.rwvvrQRNp2",
+            "bio": "Hello I am a test user 3",
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "settings": [
+        {
+            "id": "6a41152f-0de8-4c3a-a353-a70137ca202f",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "defaultActivityDuration": 10000,
+            "approveFollowers": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "18a48060-8733-42c1-8dd9-1d14bf4ef718",
+            "userId": "7b897879-2732-4900-a390-119b45588586",
+            "defaultActivityDuration": 1,
+            "approveFollowers": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "b836490f-1977-4b74-a0ca-19314b5fa23f",
+            "userId": "908e7759-ab11-493b-90c5-59d9272882da",
+            "defaultActivityDuration": 1,
+            "approveFollowers": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "e25a6152-a315-40ce-b62f-0bcabc4f1255",
+            "userId": "7a4b3c72-1954-4b8a-a429-d81c1a58118c",
+            "defaultActivityDuration": 1,
+            "approveFollowers": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "5344d61b-4fb9-46ba-a23e-e0678547c79d",
+            "userId": "713334a0-7b5c-474e-9a17-fe416c1e441c",
+            "defaultActivityDuration": 1,
+            "approveFollowers": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "extraUsers": [
+        {
+            "id": "7a4b3c72-1954-4b8a-a429-d81c1a58118c",
+            "fullName": "test user extra",
+            "username": "test",
+            "email": "test@example.com",
+            "password": "$2a$06$TaitfNktAlMQkRt5viFnI.avHNMAeBbHeSwS2jFELQ.rwvvrQRNp2",
+            "bio": "Hello I am a test user extra",
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "713334a0-7b5c-474e-9a17-fe416c1e441c",
+            "fullName": "test user1 extra",
+            "username": "test1",
+            "email": "test1@example.com",
+            "password": "$2a$06$TaitfNktAlMQkRt5viFnI.avHNMAeBbHeSwS2jFELQ.rwvvrQRNp2",
+            "bio": "Hello I am a test user 1 extra",
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "id": "9661cead-4f3e-4d76-8955-deb255dadfc5",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "countryCode": "+91",
+            "phoneNumber": "9898787676",
+            "deviceId": "someuniquedevicetoken",
+            "deviceType": "iOS",
+            "primary": 1,
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "6f861f17-9d90-43db-b0dd-7bad785cc971",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "countryCode": "+91",
+            "phoneNumber": "4898787676",
+            "deviceId": "someuniquedevicetoken1",
+            "deviceType": "iOS",
+            "primary": 0,
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "7075c502-a7aa-479a-98d4-4f4c4c6c5357",
+            "userId": "7b897879-2732-4900-a390-119b45588586",
+            "countryCode": "+91",
+            "phoneNumber": "8787878787",
+            "deviceId": "someuniquedevicetoken2",
+            "deviceType": "iOS",
+            "primary": 1,
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "b4417036-3d0c-4ee2-9527-bc16ecc497d1",
+            "userId": "7b897879-2732-4900-a390-119b45588586",
+            "countryCode": "+91",
+            "phoneNumber": "8787874787",
+            "deviceId": "someuniquedevicetoken3",
+            "deviceType": "iOS",
+            "primary": 0,
+            "status": 0,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "followers": [
+        {
+            "id": "dfdf7886-108b-4307-aa2d-e8c891e7eae0",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "followerId": "908e7759-ab11-493b-90c5-59d9272882da",
+            "status": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "e4834a8a-2daa-410d-8a24-97f765821b71",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "followerId": "7b897879-2732-4900-a390-119b45588586",
+            "status": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "644f1e29-01df-4ffb-932b-3641fc559f88",
+            "userId": "908e7759-ab11-493b-90c5-59d9272882da",
+            "followerId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "status": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "c9f194c0-1500-4e29-aa32-d1b12fb9bcd7",
+            "userId": "908e7759-ab11-493b-90c5-59d9272882da",
+            "followerId": "7b897879-2732-4900-a390-119b45588586",
+            "status": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "extraPhoneNumbers": [
+        {
+            "id": "1ea18673-6b0e-443e-b392-5a8139d99f6c",
+            "userId": "36bfe8d8-3ad5-4337-bdc9-26e9bbe2d454",
+            "countryCode": "+91",
+            "phoneNumber": "9898787676",
+            "deviceId": "someuniquedevicetoken44",
+            "deviceType": "iOS",
+            "status": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "1605b499-d3cc-4506-a874-68ba4f4301d4",
+            "userId": "89df673d-b965-4b97-9140-98335bc63af9",
+            "countryCode": "+91",
+            "phoneNumber": "8787878787",
+            "deviceId": "someuniquedevicetoken55",
+            "deviceType": "iOS",
+            "status": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "extraPrimaryNumbers": [
+        {
+            "id": "70385421-010f-426b-b622-cf2cc6fb8b37",
+            "userId": "7b897879-2732-4900-a390-119b45588586",
+            "countryCode": "+91",
+            "phoneNumber": "5453645463",
+            "deviceId": "someuniquedevicetoken77",
+            "deviceType": "iOS",
+            "status": 1,
+            "primary": 1,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "resetPassword": [
+        {
+            "id": "959970b4-6c4e-4bde-8344-bcf21cd31db6",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "email": "test@example.com",
+            "token": "86516fce-ff6e-4758-81e3-347a4427dc69",
+            "expires": 1692410583725,
+            "password": "$2a$06$TaitfNktAlMQkRt5viFnI.avHNMAeBbHeSwS2jFELQ.rwvvrQRNp2",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "cc6b40a9-f373-48c1-9f71-f99aff872845",
+            "userId": "7b897879-2732-4900-a390-119b45588586",
+            "email": "test1@example.com",
+            "token": "3c9245d4-b09c-4171-8b40-479f5fa5abb0",
+            "expires": 1492410583725,
+            "password": "$2a$06$TaitfNktAlMQkRt5viFnI.avHNMAeBbHeSwS2jFELQ.rwvvrQRNp2",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "emailVerification": [
+        {
+            "id": "b11f8184-45a1-4ffc-b3e0-32fba0661307",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "email": "test@example.com",
+            "token": "b51b8b02-4a58-4ddf-9c4c-4263846f406b",
+            "expires": 1692410583725,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "f8a0dff7-dab5-4d62-977d-69360e4c63a3",
+            "userId": "7b897879-2732-4900-a390-119b45588586",
+            "email": "test1@example.com",
+            "token": "151056c3-026d-4c36-8ac7-0f59f556ff62",
+            "expires": 1492410583725,
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "notificationPreferences": [
+        {
+            "id": "f491bce4-356b-4847-ad77-254dec94f6f0",
+            "preferences": 197383,
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "userLinkedCalendars": [
+        {
+            "id": "f17d16e2-eb75-4f0c-9e6b-ce29968ff78c",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "type": "google",
+            "autoUpdate": 1,
+            "accessToken": "somevalidgooglecalendaraccesstoken",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "f4504465-bfcc-4306-9dab-1489bfd7ad6c",
+            "userId": "7b897879-2732-4900-a390-119b45588586",
+            "type": "apple",
+            "autoUpdate": 1,
+            "accessToken": "somevalidapplecalendaraccesstoken",
+            "metadata": {
+                "property": "value",
+                "another": 12342344
+            },
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "userSocialConnections": [
+        {
+            "id": "f17d16e2-eb75-4f0c-9e6b-ce29968ff78c",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "type": "google",
+            "accessToken": "socialaccesstoken",
+            "refreshToken": "socialrefreshtoken",
+            "socialId": "123456789",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "f4504465-bfcc-4306-9dab-1489bfd7ad6c",
+            "userId": "7b897879-2732-4900-a390-119b45588586",
+            "type": "google",
+            "accessToken": "socialaccesstoken",
+            "refreshToken": "socialrefreshtoken",
+            "socialId": "223456789",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "userContacts": [
+        {
+            "id": "a70ff53c-ccd5-4d9f-9c9c-f3eca1071fe8",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "email": "externalcontact@example.com",
+            "type": "email",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "activities": [
+        {
+            "id": "8bcde5b1-aac3-4880-b666-45c46cbedc2d",
+            "title": "Let's catch a movie",
+            "start": 1493159649467,
+            "duration": 150,
+            "privacy": "private",
+            "author": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "7b4835de-36a2-4746-9d85-bed8fa4a52cb",
+            "title": "Let's go to hiking",
+            "start": 1493159649467,
+            "duration": 150,
+            "privacy": "shared",
+            "author": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "photos": [{
+                "resolutions": [
+                    {
+                        "name": "original",
+                        "bucket": "lets-user-media",
+                        "key": "public-activity.png"
+                    }
+                ]
+            }],
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "b66ff817-b8a4-44e6-9be7-3654450788db",
+            "title": "Let's go to rafting",
+            "start": 1493159649467,
+            "duration": 150,
+            "privacy": "public",
+            "author": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "activityInvitees": [
+        {
+            "id": "bfaa70db-ebb4-4e12-9d8f-e2e20cdae7cb",
+            "activityId": "8bcde5b1-aac3-4880-b666-45c46cbedc2d",
+            "type": "app-user",
+            "inviteeId": "7b897879-2732-4900-a390-119b45588586",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "ffc7bdd5-8951-4415-b214-3f7629eb2108",
+            "activityId": "8bcde5b1-aac3-4880-b666-45c46cbedc2d",
+            "type": "app-user",
+            "inviteeId": "908e7759-ab11-493b-90c5-59d9272882da",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "6845685c-347a-44b4-aa14-393f68722dfd",
+            "activityId": "8bcde5b1-aac3-4880-b666-45c46cbedc2d",
+            "type": "non-app-user",
+            "inviteeId": "a70ff53c-ccd5-4d9f-9c9c-f3eca1071fe8",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "activityRsvp": [
+        {
+            "id": "bfaa70db-ebb4-4e12-9d8f-e2e20cdae7cb",
+            "activityId": "8bcde5b1-aac3-4880-b666-45c46cbedc2d",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "b982ec3a-9bd1-4ea2-8c89-84a67edd7ec2",
+            "activityId": "b66ff817-b8a4-44e6-9be7-3654450788db",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "42b5c09f-369d-435f-acae-2f1d39fd8e16",
+            "activityId": "7b4835de-36a2-4746-9d85-bed8fa4a52cb",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "activityLikes": [
+        {
+            "id": "17bcf364-15e0-403d-bfbb-57667a8eac20",
+            "activityId": "8bcde5b1-aac3-4880-b666-45c46cbedc2d",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "6b0f4a8b-38b2-407b-8637-eee95659f61a",
+            "activityId": "b66ff817-b8a4-44e6-9be7-3654450788db",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "cacc2d92-325f-4851-a5e5-c134a83ecb38",
+            "activityId": "7b4835de-36a2-4746-9d85-bed8fa4a52cb",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "comments": [
+        {
+            "id": "55b72d95-61de-45b7-8a0f-f1680398545e",
+            "activityId": "8bcde5b1-aac3-4880-b666-45c46cbedc2d",
+            "text": "This is a comment",
+            "author": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "e0a9afbc-2f04-4e4e-aeef-682add2d81e9",
+            "activityId": "8bcde5b1-aac3-4880-b666-45c46cbedc2d",
+            "photos": [{
+                "resolutions": [
+                    {
+                        "name": "original",
+                        "bucket": "lets-user-media",
+                        "key": "public-activity.png"
+                    }
+                ]
+            }],
+            "author": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "43d8c175-d3cf-4881-adb0-15ce0862d080",
+            "activityId": "7b4835de-36a2-4746-9d85-bed8fa4a52cb",
+            "text": "This is a comment",
+            "author": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "e663d51d-3ac7-40da-8ff0-fc981f1b48a1",
+            "activityId": "b66ff817-b8a4-44e6-9be7-3654450788db",
+            "text": "This is a comment",
+            "author": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "activityPhotos": [
+        {
+            "id": "64a48c28-2890-4d9d-838d-ba2b69d996c2",
+            "activityId": "7b4835de-36a2-4746-9d85-bed8fa4a52cb",
+            "photo": {
+                "resolutions": [
+                    {
+                        "name": "original",
+                        "bucket": "lets-user-media",
+                        "key": "public-activity.png"
+                    }
+                ]
+            },
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        },
+        {
+            "id": "1458b199-f1df-4f8e-8b2b-32570684e868",
+            "activityId": "8bcde5b1-aac3-4880-b666-45c46cbedc2d",
+            "photo": {
+                "resolutions": [
+                    {
+                        "name": "original",
+                        "bucket": "lets-user-media",
+                        "key": "public-activity.png"
+                    }
+                ]
+            },
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ],
+    "commentLikes": [
+        {
+            "id": "84c0a106-79c6-423e-8e62-a1d8dd2920bd",
+            "commentId": "55b72d95-61de-45b7-8a0f-f1680398545e",
+            "userId": "db35f7b9-09c1-456c-8b46-508bbccdbd55",
+            "createdAt": 1493059649467,
+            "updatedAt": 1493059649467
+        }
+    ]
+}

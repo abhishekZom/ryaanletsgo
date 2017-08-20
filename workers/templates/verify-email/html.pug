@@ -1,0 +1,16 @@
+.container
+  .main-content
+    h4 Hi #{user.fullName},
+    p Welcome to lets! Thanks so much for joining us.
+    p
+      | You have received this mail because you have to verify the email address associated with your account. Click the button below to verify the email.
+    p
+      a.link-button(type='button', href=link) Verify the email
+    p
+      | If you did not signup for this account, please ignore this mail. This verification link will only be valid for next #{days} days.
+    p.n-m Thanks
+    p.n-m-team Lets Team
+  .footer-content
+    p
+      | If you're having trouble clicking the button above, copy and paste the URL below into your web browser.
+    p #{link}
