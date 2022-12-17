@@ -1,5 +1,5 @@
 {
-  "name": "lets-app-backend",
+  "name": "letsgo-app-backend",
   "version": "1.0.0",
   "description": "lets: Backend API services",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "seed": "node ./setup/seed.js",
     "test": "sh ./prepare_dist.sh && NODE_ENV=test istanbul cover --handle-sigint --report html _mocha"
   },
-  "author": "TCSCODER",
+  "author": "Abhishek",
   "repository": {
     "type": "git",
     "url": ""
